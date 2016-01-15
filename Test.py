@@ -6,12 +6,12 @@ import unittest
 from selenium.webdriver.support.wait import WebDriverWait
 import data
 
-es = Elasticsearch(hosts = 'gepard.bintime.com:9200')
+es = Elasticsearch(hosts = 'qwerty.bintime.com:1234')
 
 class Test(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()
-        self.driver.get('http://admin:skdf%24%23%26%26%25tg@gepard.bintime.com/')
+        self.driver.get('http://qaz:wsxg@gepard.bintime.com/')
 
     def testLogin(self):
         driver = self.driver
